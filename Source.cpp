@@ -27,6 +27,29 @@ float thuong(int a, int b);
 
 int main()
 {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+	int a;
+	int b;
+	cout << "DAY LA CHUONG TRINH DE THUC HANH GIT";
+	cout << "\nNhap a: ";
+	cin >> a;
+	cout << "\nNhap b: ";
+	cin >> b;
+	cout << "\nHieu cua a,b la: " << hieu(a,b);
+	system("pause");
+	return 0;
+}
+int hieu(int a, int b)
+{
+	int s = 0;
+	s = a - b;
+	return s;
+}
+=======
+
+>>>>>>> 9562e78ec3abf4063455ae04ec34fc8418e75a44
 	cout << "DAY LA CHUONG TRINH DE THUC HANH GIT";
 	int a,b;
 cout << "Nhap so a : ";
@@ -40,3 +63,12 @@ cout << "Thuong cua 2 so la : " << thuong ;
 	system("pause");
 	return 0;
 }
+<<<<<<< HEAD
+=======
+int tong(int a, int b)
+{
+ 
+	return a+b;
+}
+>>>>>>> 478bab34d201b9101686b10d14fd4b3248ed1bd5
+>>>>>>> 9562e78ec3abf4063455ae04ec34fc8418e75a44
