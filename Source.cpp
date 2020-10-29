@@ -133,7 +133,22 @@ int main()
 		case 3:
 		{
 			//Bai 3
-			int a,b;
+			int a,b,c;
+			srand(time(NULL));
+			a = rand() % 100 + 0;
+			b = rand() % 100 + 0;
+			cout << "a = " << a << endl;
+			cout << "b = " << b << endl;
+			cout << "Tong cua 2 so la : " ;
+			cin >> c;
+			if (c==(a+b)
+			{
+				cout<< " Ket qua dung roi";
+			}
+			else
+			{
+				cout<< "Ket qua sai roi ";
+			}
 			
 		}
 		case 4:
