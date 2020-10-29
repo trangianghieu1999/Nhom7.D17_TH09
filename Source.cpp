@@ -92,7 +92,7 @@ int main()
 				{
 					cout<<"\n Nhap ban kinh R:";
 					cin>> dai;
-					cout<<"\n Chu vi hinh tron la :"<<"Goi ham vao day";
+					cout<<"\n Chu vi hinh tron la :"<<chuViHinhTron(dai);
 					cout<<"\n Dien tich hinh tron la :"<<"Goi ham vao day";
 					break;
 				}
@@ -100,7 +100,7 @@ int main()
 				{
 					cout<<"\nNhap chieu dai canh :";
 					cin>> dai;
-					cout<<"\nChu vi vuong la :"<<"Goi ham vao day";
+					cout<<"\nChu vi vuong la :"<<chuViVuong(dai);
 					cout<<"\nDien tich vuong tron la :"<<"Goi ham vao day";
 					break;
 				}
@@ -109,7 +109,7 @@ int main()
 					cout<<"\nNhap chieu dai va chieu rong";
 					cin>> dai;
 					cin>>rong;
-					cout<<"\nChu vi hinh chu nhat la :"<<"Goi ham vao day";
+					cout<<"\nChu vi hinh chu nhat la :"<<chuViHinhChuNhat(dai,rong);
 					cout<<"\nDien tich hinh chu nhat la :"<<"Goi ham vao day";
 					break;
 				}
