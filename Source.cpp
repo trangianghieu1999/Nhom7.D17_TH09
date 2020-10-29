@@ -26,6 +26,17 @@ float thuong(int a, int b){
 }
 
 // Features
+float chuViVuong(canh a){
+	return 4*a;
+}
+float chuViHinhChuNhat(int a, int b)
+{
+	return(2 * (a + b));
+}
+float chuViHinhTron(int r){
+	float Pi = 3.14, cv;	
+	return (cv = 2 * Pi * r);
+}
 int main()
 {
 
@@ -55,19 +66,17 @@ int main()
 	{
 		case 1:
 		{
-			cout<<"Nhap chieu dai va chieu rong";
+			cout<<"Nhap chieu ban kinh";
 			cin>> dai;
-			cinn>>rong;
-			cout<<"Chu vi hinh tron la :"<<"???";
+			cout<<"Chu vi hinh tron la :"<<chuViHinhTron(r);
 			cout<<"Dien tich hinh tron la :"<<"???";
 			break;
 		}
 		case 2:
 		{
-			cout<<"Nhap chieu dai va chieu rong";
+			cout<<"Nhap chieu dai canh";
 			cin>> dai;
-			cinn>>rong;
-			cout<<"Chu vi vuong la :"<<"???";
+			cout<<"Chu vi vuong la :"<<chuViVuong(dai);
 			cout<<"Dien tich vuong tron la :"<<"???";
 			break;
 		}
@@ -76,7 +85,7 @@ int main()
 			cout<<"Nhap chieu dai va chieu rong";
 			cin>> dai;
 			cinn>>rong;
-			cout<<"Chu vi hinh chu nhat la :"<<"???";
+			cout<<"Chu vi hinh chu nhat la :"<<chuViHinhChuNhat(dai,rong);
 			cout<<"Dien tich hinh chu nhat la :"<<"???";
 			break;
 		}
