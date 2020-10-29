@@ -24,7 +24,22 @@ int tich(int a, int b){
 float thuong(int a, int b){
 	return a/b;
 }
+float thuong(int a, int b){
+	return a/b;
+}
 
+float dienTichVuong(canh a){
+	return a*a;
+}
+float dienTichhinhTron(int r)
+{
+	float GT_PI = 3.14;
+	return GT_PI*r*r;
+}
+float dienTichHinhChuNhat(int a, int b)
+{
+	return (a*b);
+}
 // Features
 int main()
 {
