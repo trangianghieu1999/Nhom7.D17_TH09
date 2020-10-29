@@ -1,6 +1,6 @@
 Danh sách thành viên : 
 	- Trần Giang Hiếu ( Leader )
-	- Đỗ Hữu Lộc
+	- Đỗ Hữu Lộc -nickname :phuclp00
 	- Huỳnh Tuấn Diệu
 	- Trần Đức Mạnh
 	- Lê Duy Thiện	
