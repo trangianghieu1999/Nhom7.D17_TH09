@@ -26,17 +26,6 @@ float thuong(int a, int b){
 }
 
 // Features
-float chuViVuong(canh a){
-	return 4*a;
-}
-float chuViHinhChuNhat(int a, int b)
-{
-	return(2 * (a + b));
-}
-float chuViHinhTron(int r){
-	float Pi = 3.14, cv;	
-	return (cv = 2 * Pi * r);
-}
 int main()
 {
 
