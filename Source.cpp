@@ -19,7 +19,18 @@ int tich(int a, int b) {
 float thuong(int a, int b) {
 	return a / b;
 }
-
+float dienTichVuong(canh a){
+	return a*a;
+}
+float dienTichhinhTron(int r){
+	float PI_VALUE = 3.14;
+	
+	return (PI_VALUE * r * r);
+}
+float dienTichHinhChuNhat(int a, int b)
+{
+	return (a*b);
+}
 int main()
 {
 
