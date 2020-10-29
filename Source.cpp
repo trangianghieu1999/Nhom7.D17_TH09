@@ -21,15 +21,18 @@ int tich(int a, int b){
 		// tra ve ket qua a nhan b
 		return (a*b);
 }
-float thuong(int a, int b);
-//int hieu(int a, int b);
-//int tich(int a, int b);
-//float thuong(int a, int b);
+float thuong(int a, int b){
+	return a/b;
+}
 
+// Features
 int main()
 {
 
 	cout << "DAY LA CHUONG TRINH DE THUC HANH GIT";
+	
+	//Bai 1
+	/*
 	int a,b;
 	cout << "Nhap so a : ";
 	cin >> a;
@@ -39,6 +42,52 @@ int main()
 	cout << "Hieu cua 2 so la : " << hieu ;
 	cout << "Tich cua 2 so la : " << tich ;
 	cout << "Thuong cua 2 so la : " << thuong ;
+	*/
+	// Bai 2
+	cout<<"Tinh chu vi va dien tich";
+	cout<<" Hinh tron (1)";
+	cout<<" Hinh vuong (2)";
+	cout<<" Hinh chu nhat (3)";
+	cin>>n;
+	int dai;
+	int rong;
+	switch(n)
+	{
+		case 1:
+		{
+			cout<<"Nhap chieu dai va chieu rong";
+			cin>> dai;
+			cinn>>rong;
+			cout<<"Chu vi hinh tron la :"<<"???";
+			cout<<"Dien tich hinh tron la :"<<"???";
+			break;
+		}
+		case 2:
+		{
+			cout<<"Nhap chieu dai va chieu rong";
+			cin>> dai;
+			cinn>>rong;
+			cout<<"Chu vi vuong la :"<<"???";
+			cout<<"Dien tich vuong tron la :"<<"???";
+			break;
+		}
+		case 3:
+		{
+			cout<<"Nhap chieu dai va chieu rong";
+			cin>> dai;
+			cinn>>rong;
+			cout<<"Chu vi hinh chu nhat la :"<<"???";
+			cout<<"Dien tich hinh chu nhat la :"<<"???";
+			break;
+		}
+		//Bai 3
+		
+		//Bai4
+	}
+	
+
+	
+	
 	system("pause");
 	return 0;
 }
