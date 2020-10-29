@@ -1,6 +1,24 @@
 #include <iostream>
 
 using namespace std;
+// Features
+int tong(int a, int b)
+{
+
+	return a + b;
+}
+int hieu(int a, int b)
+{
+	int s = 0;
+	s = a - b;
+	return s;
+}
+int tich(int a, int b) {
+	return(a * b);
+}
+float thuong(int a, int b) {
+	return a / b;
+}
 
 int main()
 {
@@ -29,14 +47,15 @@ int main()
 		{
 					
 			int a,b;
-			cout << "Nhap so a : ";
+			cout << "\nNhap so a : ";
 			cin >> a;
-			cout <<"Nhap so b : ";
+			cout <<"\nNhap so b : ";
 			cin >> b;
 			cout << "Tong cua 2 so la : " << tong(a,b) ;
 			cout << "Hieu cua 2 so la : " << hieu(a,b) ;
 			cout << "Tich cua 2 so la : " << tich (a,b);
 			cout << "Thuong cua 2 so la : " << thuong(a,b) ;
+			break;
 		}
 		case 2:
 		{
@@ -46,12 +65,13 @@ int main()
 			cout<<" \n 1.Hinh tron ";
 			cout<<" \n 2.Hinh vuong ";
 			cout<<" \n 3.Hinh chu nhat ";
-			cin>>n;
+			int x;
+			cin>>x;
 			int dai;
 			int rong;
-			switch(n)
+			switch(x)
 			{
-				case:1
+			case 1:
 				{
 					cout<<"\n Nhap ban kinh R:";
 					cin>> dai;
@@ -59,7 +79,7 @@ int main()
 					cout<<"\n Dien tich hinh tron la :"<<"Goi ham vao day";
 					break;
 				}
-				case:2
+			case 2:
 				{
 					cout<<"\nNhap chieu dai canh :";
 					cin>> dai;
@@ -67,13 +87,13 @@ int main()
 					cout<<"\nDien tich vuong tron la :"<<"Goi ham vao day";
 					break;
 				}
-				case:3
+			case 3:
 				{
-					cout<<"Nhap chieu dai va chieu rong";
+					cout<<"\nNhap chieu dai va chieu rong";
 					cin>> dai;
-					cinn>>rong;
-					cout<<"Chu vi hinh chu nhat la :"<<"Goi ham vao day";
-					cout<<"Dien tich hinh chu nhat la :"<<"Goi ham vao day";
+					cin>>rong;
+					cout<<"\nChu vi hinh chu nhat la :"<<"Goi ham vao day";
+					cout<<"\nDien tich hinh chu nhat la :"<<"Goi ham vao day";
 					break;
 				}
 			}		
@@ -96,23 +116,5 @@ int main()
 	}	
 	
 	system("pause");
-	return 0;
-}
-// Features
-int tong(int a, int b)
-{
- 
-	return a+b;
-}
-int hieu(int a, int b)
-{
-	int s = 0;
-	s = a - b;
-	return s;
-}
-int tich(int a, int b){
-	return(a*b);
-}
-float thuong(int a, int b){
-	return a/b;
+	return 1;
 }
