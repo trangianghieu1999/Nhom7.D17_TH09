@@ -1,5 +1,5 @@
 #include <iostream>
-
+#include<time.h>
 using namespace std;
 // Features
 int tong(int a, int b)
