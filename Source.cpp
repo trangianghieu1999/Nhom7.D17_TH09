@@ -139,7 +139,22 @@ int main()
 		case 4:
 		{
 			//Bai4
-			int a,b;
+			int a,b,c;
+			srand(time(NULL));
+			a = rand() % 100 + 0;
+			b = rand() % 100 + 0;
+			cout << "a = " << a << endl;
+			cout << "b = " << b << endl;
+			cout<<"Hieu cua 2 so la : ";
+			cin >> c;
+			if (c==hieu)
+			{
+				cout<<"Ket qua dung";
+			}
+			else
+			{
+				cout<<"Ket qua sai";
+			}
 				
 			
 		}
