@@ -40,6 +40,24 @@ float dienTichHinhChuNhat(int a, int b)
 {
 	return (a*b);
 }
+float chuViHinhTron(int r)
+{
+	
+	float PI_VALUE = 3.14;
+
+		
+
+	
+	return ( 2 * PI_VALUE * r);
+		
+}
+float chuViVuong(canh a){
+	return 4*a;
+}
+float chuViHinhChuNhat(int a, int b)
+{
+	return(2 * (a + b));
+}
 // Features
 int main()
 {
