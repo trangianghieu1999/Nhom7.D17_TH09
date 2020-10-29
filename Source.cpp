@@ -24,10 +24,6 @@ float chuViHinhTron(int r)
 {
 	
 	float PI_VALUE = 3.14;
-
-		
-
-	
 	return ( 2 * PI_VALUE * r);
 		
 }
@@ -155,10 +151,8 @@ int main()
 			{
 				cout<<"Ket qua sai";
 			}
-				
-			
+
 		}
-		
 		
 	}	
 	
