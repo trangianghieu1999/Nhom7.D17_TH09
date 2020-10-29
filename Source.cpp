@@ -31,14 +31,15 @@ float chuViHinhTron(int r)
 	return ( 2 * PI_VALUE * r);
 		
 }
-float chuViVuong(canh a){
+float chuViVuong(float a){
 	return 4*a;
 }
 float chuViHinhChuNhat(int a, int b)
 {
 	return(2 * (a + b));
+}
 
-float dienTichVuong(canh a){
+float dienTichVuong(float a){
 	return a*a;
 }
 float dienTichhinhTron(int r){
