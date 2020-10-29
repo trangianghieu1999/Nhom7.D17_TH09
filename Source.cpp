@@ -137,7 +137,7 @@ int main()
 			cout << "b = " << b << endl;
 			cout << "Tong cua 2 so la : " ;
 			cin >> c;
-			if (c==(a+b)
+			if (c==(a+b))
 			{
 				cout<< " Ket qua dung roi";
 			}
